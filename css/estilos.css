@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    font-family: Lato,Roboto,Helvetica,Helvetica Neue,Arial,sans-serif;
+}
+
+/*Navbar*/
+.navbar{
+    width: 100%;
+    background-color: #005dab;
+    overflow: auto;
+}
+
+/*Botones Home, Global, Juegos*/
+.navbar a {
+    float: left;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/*Logo Taringa*/
+.logo{
+    width: 105px;
+    height: 35px;
+    float: left;
+    padding: 5px;
+    margin-right: 70px;
+}
+
+/*Input Busqueda*/
+.search-container {
+    float: left;
+    padding: 13px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+  }
+
+  .search-container button{
+      padding:6px 10px 6px 7px;
+      margin: -1px;
+      background-color: white;
+      outline:none;
+      border: 0px solid;
+      border-radius: 0px 3px 3px 0px;
+  }
+
+  .search-container input{
+    width: 200px;
+    padding:6px 10px 6px 7px;
+    margin-right: -5px;
+    border-radius: 3px 0px 0px 3px;
+    border: 0px solid;
+    outline:none;
+  }
+
+/*Input Busqueda*/
+  .navRight{
+      float: right;
+  }
