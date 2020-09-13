@@ -24,23 +24,24 @@ body{
     width: 105px;
     height: 35px;
     float: left;
-    padding: 5px;
+    padding: 6px;
     margin-right: 70px;
 }
 
 /*Input Busqueda*/
 .search-container {
     float: left;
-    padding: 13px;
+    padding: 10px;
     font-size: 17px;
     border: none;
     cursor: pointer;
+
     margin-left: 50px;
   }
 
   .search-container button{
       padding:6px 10px 6px 7px;
-      margin: -1px;
+      margin-left: -1px;
       background-color: white;
       outline:none;
       border: 0px solid;
@@ -60,3 +61,16 @@ body{
   .navRight{
       float: right;
   }
+
+  .navRight button{
+    color: white;
+    background-color: #16C465;
+    outline: none;
+    border: 0px solid;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+  }
+
