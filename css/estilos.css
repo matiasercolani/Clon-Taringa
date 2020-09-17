@@ -2,6 +2,7 @@ body{
     margin: 0%;
     font-family: Lato,Roboto,Helvetica,Helvetica Neue,Arial,sans-serif;
     color: #575757;
+    background-color: #f4f4f4;
 }
 
 
@@ -111,7 +112,7 @@ float: left;
 
 .derecha{
 width: 395px;
-background-color: tomato;
+height: 1000px;
 float: left;
 }
 
@@ -158,6 +159,7 @@ float: left;
   font-weight: bold;
   font-size: 16px;
   margin: 10px;
+  margin-right: 25px;
 }
 
 
@@ -223,6 +225,18 @@ h2{
 
 .iDenunciar{
   float: right;
-  margin-right: 25px;
+  margin-right: 5px;
   padding: 5px;
+}
+
+
+/*Derecha Tops*/
+
+
+.tops{
+  width: 395px;
+  height: 400px;
+  background-color: white;
+  margin-top: 21px;
+  border-radius: 5px;
 }
