@@ -1,7 +1,10 @@
 body{
     margin: 0%;
     font-family: Lato,Roboto,Helvetica,Helvetica Neue,Arial,sans-serif;
+    color: #575757;
 }
+
+
 
 /*Navbar*/
 .navbar{
@@ -10,6 +13,9 @@ body{
     overflow: auto;
     box-shadow: 0px 1px 5px #9f9f9f;
 }
+
+
+
 
 /*Botones Home, Global, Juegos*/
 .navbar a {
@@ -28,6 +34,9 @@ body{
     padding: 6px;
     margin-right: 70px;
 }
+
+
+
 
 /*Input Busqueda*/
 .search-container {
@@ -58,6 +67,9 @@ body{
     outline:none;
   }
 
+
+
+
 /*Botones Registrarme, Iniciar Sesion*/
   .navRight{
       float: right;
@@ -76,6 +88,8 @@ body{
   }
 
 
+
+
 /* Principal */
 .all{
   width: 100%;
@@ -84,14 +98,14 @@ body{
 }
 
 .main{
-  background-color: teal;
+  
   width: 1070px;
   height: 1000px;
 }
 
 .izquierda{
 width: 675px;
-background-color: yellow;
+
 float: left;
 }
 
@@ -101,7 +115,15 @@ background-color: tomato;
 float: left;
 }
 
+
+
 /*Botones Destacados, Recientes, Crear Articulos*/
+.buttons_category{
+  float: left;
+  width: 675px;
+  margin: 10px 0px;
+}
+
 .bDestacados{
   float: left;
   background-color: #005dab;
@@ -136,4 +158,71 @@ float: left;
   font-weight: bold;
   font-size: 16px;
   margin: 10px;
+}
+
+
+/* Tabla */
+.articulo{
+width: 675px;
+height: 115px;
+}
+
+.tabla{
+  
+  width: 400px;
+  height: 800px;
+  float: left;
+  width: 675px;
+}
+.aImagen{
+  float: left;
+}
+
+.imgArticulo{
+  width: 115px;
+  height: 77px;
+  border-radius: 5px;
+  margin: 11px;
+}
+
+.aTitulo{
+  float: left;
+  margin-top: 10px;
+  width: 520px;
+}
+
+.detalleArt{
+  float: left;
+  font-size: 11px;
+  
+}
+
+h2{
+  font-size: 17px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+/*Estadisticas de la publicacion*/
+
+.estadisticas{
+  clear: both;
+  font-size: 12px;
+  margin-top: 45px;
+}
+
+.fVerde{
+  color: #16C465;
+}
+
+.iEstadisticas{
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.iDenunciar{
+  float: right;
+  margin-right: 25px;
+  padding: 5px;
 }
